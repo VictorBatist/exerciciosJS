@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2.2</title>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+
+    <style>
+        body{
+            background-color: gray;
+            color: white;
+            font: bold 20pt Arial;
+        }
+        h1{
+            color: black;
+        }
+    </style>
+
+    <script>
+        // let num1 = Number.parseFloat(window.prompt('Informe um numero:'));
+        // let num2 = Number.parseFloat(window.prompt('Informe outro numero'));
+        //usando só o 'Number' o JavaScript decide o tipo de number 
+        let num1 = Number(window.prompt('Informe um numero:'));
+        let num2 = Number(window.prompt('Informe outro numero'));
+        let soma = num1 + num2;
+        alert(`A soma de ${num1} e ${num2} é igual a ${soma}`);
+        // o prompt só retorna string
+        // (number + number) para adição
+        // (string + string) para concatenação
+    </script>
+</body>
+</html>
